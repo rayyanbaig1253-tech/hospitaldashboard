@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/SAAD%20COMMUNICATION/Documents/Hospital%20Dashboard/hospital-dashboard/components/layout/DashboardLayout.tsx"],"sourcesContent":["'use client'\n\nimport React from 'react'\nimport { Sidebar } from '@/components/layout/Sidebar'\n// import { useSession } from 'next-auth/react' // Assuming session is available\n\nexport default function DashboardLayout({\n  children,\n}: {\n  children: React.ReactNode\n}) {\n  // In a real app, get this from useSession()\n  const userRole = 'SUPER_ADMIN' \n\n  return (\n    <div className=\"flex bg-slate-50 min-h-screen\">\n      <Sidebar userRole={userRole} />\n      <main className=\"flex-1 overflow-y-auto px-8 py-10 bg-gradient-to-br from-slate-50 to-blue-50/30\">\n        <div className=\"max-w-7xl mx-auto space-y-8\">\n           {children}\n        </div>\n      </main>\n    </div>\n  )\n}\n"],"names":[],"mappings":";;;;;AAGA;AAHA;;;AAMe,SAAS,gBAAgB,EACtC,QAAQ,EAGT;IACC,4CAA4C;IAC5C,MAAM,WAAW;IAEjB,qBACE,2SAAC;QAAI,WAAU;;0BACb,2SAAC,wMAAO;gBAAC,UAAU;;;;;;0BACnB,2SAAC;gBAAK,WAAU;0BACd,cAAA,2SAAC;oBAAI,WAAU;8BACX;;;;;;;;;;;;;;;;;AAKZ"}}]
+}

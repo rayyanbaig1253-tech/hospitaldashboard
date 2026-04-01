@@ -1,0 +1,10 @@
+var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/auth/[...nextauth]/route.js")
+R.c("server/chunks/701af_next_139dfc26._.js")
+R.c("server/chunks/701af_next-auth_b589dff5._.js")
+R.c("server/chunks/701af_openid-client_f1d2292e._.js")
+R.c("server/chunks/701af_jose_dist_node_cjs_df2323cb._.js")
+R.c("server/chunks/701af_ab71490a._.js")
+R.c("server/chunks/[root-of-the-server]__5dc27ddf._.js")
+R.c("server/chunks/337c0__next-internal_server_app_api_auth_[___nextauth]_route_actions_fa32aff8.js")
+R.m("[project]/Downloads/Hospital Dashboard/hospital-dashboard/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/Downloads/Hospital Dashboard/hospital-dashboard/app/api/auth/[...nextauth]/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/Downloads/Hospital Dashboard/hospital-dashboard/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/Downloads/Hospital Dashboard/hospital-dashboard/app/api/auth/[...nextauth]/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports
